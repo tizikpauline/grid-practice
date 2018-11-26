@@ -1,0 +1,158 @@
+@import "reset.css";
+@import "font.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+
+  background: #FFECDF;
+}
+
+h1 {
+  height: 96px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-family: "HelveticaNeueCyr";
+  font-weight: bold;
+  font-size: 96px;
+
+  color: #000000;
+}
+
+.main img {
+  width: 463px;
+  height: 640px;
+}
+
+.grid-container-eurythmics-1 {
+  display: grid;
+  grid-template-columns: 638px 660px;
+  grid-template-rows: 48px 665px;
+  grid-column-gap: 22px;
+  grid-row-gap: 56px;
+
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 90px;
+}
+
+.grid-text-1 {
+
+  padding-right: 18px;
+}
+
+h2 {
+  font-family: "HelveticaNeueCyr";
+  font-size: 48px;
+
+  color: #000000;
+}
+
+p {
+  font-family: "Helvetica";
+  line-height: 30px;
+  font-size: 30px;
+
+  width: 638px;
+
+  color: #000000;
+}
+
+.grid-image-eurythmics img {
+  width: 660px;
+  height: 502px;
+}
+
+.grid-container-eurythmics-2 {
+  display: grid;
+  grid-template-columns: 638px 564px;
+  grid-template-rows: 169px 665px;
+  grid-column-gap: 22px;
+  grid-row-gap: 56px;
+
+  margin-left: 60px;
+  margin-bottom: 90px;
+}
+
+.quote-1 {
+  width: 638.03px;
+  height: 169px;
+}
+
+.quote-1 p {
+  font-family: "HelveticaNeueCyr";
+  line-height: 36px;
+  font-size: 36px;
+
+  color: #000000;
+}
+
+video {
+  width: 560px;
+  height: 315px;
+}
+
+.grid-text-2 p {
+  width: 660px;
+  height: 568px;
+
+  font-family: "Helvetica";
+  line-height: 30px;
+  font-size: 30px;
+
+  color: #000000;
+}
+
+.grid-container-dead-1 {
+  display: grid;
+  grid-template-columns: 638px 660px;
+  grid-template-rows: 48px 880px;
+  grid-column-gap: 22px;
+  grid-row-gap: 56px;
+
+  margin-left: 60px;
+  margin-bottom: 90px;
+}
+
+.grid-image-dead {
+  text-align: center;
+}
+
+.grid-image-dead img {
+  width: 409px;
+  height: 748px;
+}
+
+.grid-container-dead-2 {
+  display: grid;
+  grid-template-columns: 638px 564px;
+  grid-template-rows: 169px 665px;
+  grid-column-gap: 22px;
+  grid-row-gap: 56px;
+
+  margin-left: 60px;
+  margin-bottom: 90px;
+}
+
+.quote-2 {
+  width: 638px;
+  height: 122px;
+}
+
+.quote-2 p {
+  font-family: "HelveticaNeueCyr";
+
+  line-height: 43px;
+  font-size: 43px;
+
+  color: #000000;
+}
